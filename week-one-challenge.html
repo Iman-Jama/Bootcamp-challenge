@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Horeson">
+    <meta name="description" content="This page contains information about how horeson can help you with SEO">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Horiseon search optimisation</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Hori<span class="seo">seo</span>n</h1>
+        <nav aria-label= "Primary navigation"> <!--added label to this area to make it semantic HTML and help with those using assistive technology navigate the page-->
+            <ul>
+                <li>
+                    <a href="#Search-engine-optimisation">Search Engine Optimization</a>
+                </li>
+                <li>
+                    <a href="#online-reputation-management">Online Reputation Management</a>
+                </li>
+                <li>
+                    <a href="#social-media-marketing">Social Media Marketing</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--I am adding a main element-->
+    <main>
+        <!-- I have changed the div elements here to article elements as this is more appropriate and snsurs it folows the rules for semantic HTML-->
+        <article class="hero"></article>
+        <article class="content" >
+            <section id="Search-engine-optimisation" class="search-engine-optimization"> <!--I have used section areas, for each sub-section as each section discusses a different topic and this also is better than div element as it is semantic HTML-->
+
+                <!--added alt attributes to all images to make it more accesible for people using assistive technology-->
+                <img src="./assets/images/search-engine-optimization.jpg" alt="Image showing a desk with a laptop, cup of coffee and a notebook with SEO notes." class="float-left">
+
+            <!--Added id to h2 element, so i can do an internal link to this area from the navigation bar-->
+                <h2>Search Engine Optimization</h2>
+                <p>
+                    The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                </p>
+            </section>
+            
+            <section id="online-reputation-management" class="online-reputation-management">
+                <img src="./assets/images/online-reputation-management.jpg" alt="A picture of an open laptop. The screen has a picture of a barchart and the words reputation." class="float-right">
+                <h2>Online Reputation Management</h2>
+                <p>
+                    The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+                </p>
+            </section>
+            <section id="social-media-marketing" class="social-media-marketing">
+                <img src="./assets/images/social-media-marketing.jpg" alt="an image showing laptops and words related to social media, such as 'like', 'share' and 'tweet'" class="float-left">
+                <h2>Social Media Marketing</h2>
+                <p>
+                    Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+                </p>
+            </section>
+        </article>
+
+        <!--Used an aside element here, rather than div as this content is related to primary content but does not constitute the primary content. It also makes it semantic HTML-->
+
+        <aside class="benefits">
+            <section class="benefit-lead">
+                <h3>Lead Generation</h3>
+                <img src="./assets/images/lead-generation.png" alt="Image of a funnel with dollar sign coming out the end">
+                <p>
+                    Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+                </p>
+            </section>
+
+            <section class="benefit-brand">
+                <h3>Brand Awareness</h3>
+                <img src="./assets/images/brand-awareness.png" alt="An image of a man with a lightbulb head, emitting signals ">
+                <p>
+                    Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+                </p>
+            </section>
+
+            <section class="benefit-cost">
+                <h3>Cost Management</h3>
+                <img src="./assets/images/cost-management.png" alt="an Image of dollar signs indicating cost management">
+                <p>
+                    As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+                </p>
+            </section>
+        </aside>
+
+    </main>    
+
+<!-- I've changed the final div  element into a footer element as this si the foter of teh page.-->
+    <footer>
+        <h2>Made with ❤️️ by Horiseon</h2>
+        <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+        </p>
+    </footer>
+</body>
+
+</html>
