@@ -10,8 +10,11 @@ I refactered the code in the HTML file to ensure that was semantic HTML.I did th
   
 In the CSS file, I ensured that all the CSS selectors reflected correctly with the correct names, ensuring they corresponded to the correct section of the HTML file. I also made sure that i deleted duplicate areas of code, as i found that some areas had duplicated style and this was not required. 
  
-## Below is a preview of my website:
-![screenshot] 
+## Below are screenshots of my website:
+![picture](/assets/images/screenshot1.png)
+
+  
+![picture](/assets/images/2screenshot.png)
   
   
 ### Contact 
